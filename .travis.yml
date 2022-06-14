@@ -1,0 +1,6 @@
+os: linux
+dist: rhel8
+
+script:
+  - sudo cat /etc/redhat-release
+  - sudo yum update -y
