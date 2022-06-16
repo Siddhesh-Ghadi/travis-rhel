@@ -1,13 +1,9 @@
 os: linux
 dist: rhel8
 
-language: ruby
-rvm:
- - 2.5 
-
 script:
-  #- sudo cat /etc/redhat-release
-  #- sudo yum update -y
+  - sudo cat /etc/redhat-release
   - sudo cat /etc/os-release
-  - sudo apt update -y
+  - sudo yum update -y
+  - uname -a
   
